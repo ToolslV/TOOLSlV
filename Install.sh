@@ -17,10 +17,10 @@ nala_list=(openssh figlet ruby)
 apt_list=(tree)
 pip_list=(colorama instaloader phonenumbers psutil requests mechanize rich rich-cli pyshorteners)
 play_click() {
-    mpv --no-video --quiet "$HOME/Yalakan/Y.mp3" &> /dev/null &
+    mpv --no-video --quiet "$HOME/TOOLSlV/Y.mp3" &> /dev/null &
 }
 play_salah() {
-    mpv --no-video --quiet "$HOME/Yalakan/salah.mp3" &> /dev/null &
+    mpv --no-video --quiet "$HOME/TOOLSlV/Not.mp3" &> /dev/null &
 }
 if [ -f "$CHECK_FILE" ]; then
     clear
