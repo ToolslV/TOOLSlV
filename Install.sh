@@ -30,6 +30,7 @@ if [ -f "$CHECK_FILE" ]; then
     sleep 3
     echo ""
     clear
+    python3 ToolslV.py
 else
     for pkg in "${pkg_list[@]}"; do
         if command -v "$pkg" >/dev/null 2>&1; then
