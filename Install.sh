@@ -9,7 +9,7 @@ bold_gren='\033[1;32m'
 n='\033[0m'
 CHECK_FILE="pkg_checked.txt"
 pkg_list=(
-    python python2 nodejs-lts ruby bash cowsay figlet neofetch vim curl git zbar jq
+    python python2 tree nodejs-lts ruby bash cowsay figlet neofetch vim curl git zbar jq
     python3 coreutils ncurses-utils ossp-uuid mpv openssl openssl-tool ffmpeg sox zip
     unzip binutils clang make cmake busybox openssh nala boxes
 )
